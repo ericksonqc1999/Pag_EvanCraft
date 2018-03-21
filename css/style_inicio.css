@@ -1,0 +1,82 @@
+*{
+	margin: 0px;
+}
+html{
+	font-size: 16px;
+}
+.header{
+	height:5rem;
+	background: rgba(0,0,0,1);
+	display: flex;
+	border-bottom: solid 2px #08a364;
+}
+/*Todo sobre la imagen logo.png*/
+.div_img{
+	flex: 1;
+}
+.div_img img{
+	width: 10rem;
+	margin-top:.9rem;
+	margin-left:20rem;
+}
+/*Todo sobre la barra de navegacion*/
+.nav{
+	flex: 2;
+
+}
+.nav .ul li{
+	color: #FFFFFF;
+	display: inline-block;
+	margin-top:1.5rem;
+	margin-left: 2rem;
+	padding: .5rem 1rem;
+	font-family: Arial;
+
+}
+.nav .ul li:hover{
+	background: #08a364;
+	color: #000000;
+	transition: ease 1s;
+	cursor: pointer;
+}
+#inicio{
+	color: #08a364;
+}
+#inicio:hover{
+	color: #000000;
+}
+
+/*--------------------------*/
+/*Todo sobre el main*/
+.evan_home img{
+	width: 120rem;
+	
+	
+}
+.evan_home div{
+	
+}
+
+#noticias article{
+}
+
+/*trayectoria*/
+#trayectoria{
+	display: flex;
+}
+.trayectoria_container{
+	margin-top: 10rem;
+}
+.trayectoria{
+	text-align: center;
+}
+
+.texto_iz{
+	flex:1;
+	width: 30rem;
+}
+.texto_de{
+	flex:2;
+	width: 30rem;
+
+}

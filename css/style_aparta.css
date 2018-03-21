@@ -1,0 +1,110 @@
+*{
+	margin: 0px;
+}
+html{
+	font-size: 16px;
+}
+.header{
+	height:5rem;
+	background: rgba(0,0,0,1);
+	display: flex;
+	border-bottom: solid 2px #08a364;
+}
+/*Todo sobre la imagen logo.png*/
+.div_img{
+	flex: 1;
+}
+.div_img img{
+	width: 10rem;
+	margin-top:.9rem;
+	margin-left:20rem;
+}
+/*Todo sobre la barra de navegacion*/
+.nav{
+	flex: 2;
+
+}
+.nav .ul li{
+	color: #FFFFFF;
+	display: inline-block;
+	margin-top:1.5rem;
+	margin-left: 2rem;
+	padding: .5rem 1rem;
+	font-family: Arial;
+}
+
+.nav .ul li:hover{
+	background: #08a364;
+	color: #000000;
+	transition: ease 1s;
+	cursor: pointer;
+}
+#inicio{
+	color: #08a364;
+}
+#inicio:hover{
+	color: #000000;
+}
+
+.titulo_aparta{
+	margin-top: 8rem;
+	margin-left: 44rem;
+	font-size: 5rem;
+	font-family: Arial;
+}
+
+.parrafo_aparta{
+	margin-top: 2rem;
+	width: 80rem;
+	margin-left: 23rem;
+}
+
+.parrafo_aparta p{
+	font-size: 1.4rem;
+	text-align: center;
+	font-family: Arial;
+}
+.form_container {
+	margin-top:2rem;
+	margin-left: 48rem;
+}
+
+.form_container div input {
+	margin: .5rem;
+	width: 15rem;
+	height: 2.5rem; 
+
+}
+textarea{
+	margin-left: .5rem;
+	border: #FFFFFF;
+}
+
+.form_container input{
+	border: #FFFFFF;
+}
+.form_container input:focus{
+	outline: 0 none;
+	border: solid 1px #0CFF00; 
+}
+
+.submit{
+	margin-top: 2rem;
+}
+
+.submit input{
+	border: #FAFAFA;
+	margin-left: 57rem;
+	background:#32D806 ;
+	padding: 1rem;
+	color: #FFFFFF;
+
+}
+.submit input:hover{
+ 	background: #32BA0E;
+ 	transition:ease .5s ;
+ 	cursor: pointer;
+}
+.submit input:active{
+	box-shadow: -1px -1px;
+}
